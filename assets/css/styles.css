@@ -165,9 +165,10 @@ body.dark-theme {
   width: 115px;
 }
 
-.profile__perfil:hover {
+/* Removed, actually GitHub pages is not changing the images */
+/* .profile__perfil:hover {
   content: url('/assets/img/perfil.png');
-}
+} */
 
 .profile__border {
   border: 3.5px solid var(--first-color);
