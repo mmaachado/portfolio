@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--=============== FAVICON ===============-->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+    <!--=============== REMIX ICONS ===============-->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.4.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>Portfolio - Marcelo Machado</title>
+</head>
+
+<body>
+    <!--=============== HEADER PROFILE ===============-->
+    <header class="profile container">
+        <div class="profile__container grid">
+            <div class="profile__data">
+                <div class="profile__border">
+                    <div class="profile__perfil">
+                        <img src="assets/img/perfil.png" alt="perfil.png">
+                    </div>
+                </div>
+
+                <h2 class="profile__name">MARCELO MACHADO</h2>
+                <h3 class="profile__profession">backend developer</h3>
+
+                <ul class="profile__social">
+                    <a href="https://www.linkedin.com/in/marcelo-machado/" target="_blank" class="profile__social-link">
+                        <i class="ri-linkedin-box-fill"></i>
+                    </a>
+
+                    <a href="https://github.com/mmaachado" target="_blank" class="profile__social-link">
+                        <i class="ri-github-fill"></i>
+                    </a>
+
+                    <a href="" target="_blank" class="profile__social-link">
+
+                    </a>
+                </ul>
+            </div>
+
+            <div class="profile__info grid">
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">+1</h3>
+                    <p class="profile__info-description">year of <br> backend development</p>
+                </div>
+
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">+86</h3>
+                    <p class="profile__info-description">hours of <br> Python development tracked</p>
+                </div>
+
+                <div class="profile__info-group">
+                    <h3 class="profile__info-number">+2</h3>
+                    <p class="profile__info-description">satisfied <br> companies</p>
+                </div>
+
+            </div>
+
+            <div class="profile__buttons">
+                <a target="_blank" href="https://mmaachado.github.io/personal_resume/index.html" class="button">
+                    View Resume <i class="ri-user-search-fill"></i>
+                </a>
+
+            </div>
+
+        </div>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+        <section class="filters container">
+            <!--=============== FILTERS TABS ===============-->
+            <ul class="filters__content">
+                <button class="filters__button" data-target="#projects">
+                    projects
+                </button>
+
+                <button class="filters__button" data-target="skills">
+                    skills
+                </button>
+            </ul>
+            <div class="filters__sections">
+                <!--=============== PROJECTS ===============-->
+                <div class="projects__content grid" data-content id="projects">
+                    <article class="projects__card">
+                        <img src="assets/img/project5.jpg" alt="project1.jpg" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Open Source Community</span>
+                                <h3 class="projects__title">Anti Coding Coding Club</h3>
+                                <a target="_blank" href="https://github.com/Anti-Coding-Coding-Club"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/project2.jpg" alt="project1.jpg" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Bot</span>
+                                <h3 class="projects__title">Nagini</h3>
+                                <a target="_blank" href="https://github.com/Anti-Coding-Coding-Club/nagini"
+                                    class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/project3.jpg" alt="project1.jpg" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle">Backend</span>
+                                <h3 class="projects__title">RPA Orchestrator</h3>
+                                <a target="_blank" class="projects__button button button__small button__deactivate">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <!-- <article class="projects__card">
+                        <img src="assets/img/project4.jpg" alt="project1.jpg" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle"></span>
+                                <h3 class="projects__title"></h3>
+                                <a target="_blank" href="#" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="projects__card">
+                        <img src="assets/img/project5.jpg" alt="project1.jpg" class="projects__img">
+
+                        <div class="projects__modal">
+                            <div>
+                                <span class="projects__subtitle"></span>
+                                <h3 class="projects__title"></h3>
+                                <a target="_blank" href="#" class="projects__button button button__small">
+                                    <i class="ri-link"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </article> -->
+
+                </div>
+
+                <!--=============== SKILLS ===============-->
+                <div class="skills__content grid" data-content id="skills">
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer container">
+
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
