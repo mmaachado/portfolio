@@ -30,8 +30,8 @@ My personal portfolio with all recent projects, hosted by GitHub Pages, check [h
 * View Resume
 * EN/PT language
 
-## 👨🏻‍💻 author
-[Marcelo Machado](http://www.twitter.com/shinilol1)
+## 👨🏻‍💻 authors
+[Marcelo Machado](https://www.linkedin.com/in/marcelo-machado/)
 
 [Bedimcode](https://github.com/bedimcode)
 
